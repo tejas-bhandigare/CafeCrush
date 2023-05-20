@@ -1,0 +1,46 @@
+body{
+  /*  background-image:url("icon.jpg");
+      background-repeat: no-repeat;*/
+    background-color:rgb(249, 252, 193)
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #ced252;
+    color: rgb(0, 0, 0);
+    padding:14px 20px;
+    margin: 50px 50px 0px 0px;
+     border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #eb5b5b;
+  }
+  input[type=text]:hover{
+      background-color: rgb(187, 224, 224);
+  }
+  div {
+    border-radius: 5px;
+    background-color: #ffe991;
+    padding: 70px 100px;
+    margin: 70px 160px;
+  }
+  h3{
+     color: darkmagenta;
+     font-size: 50px;
+     margin: 25px 500px;
+  }
+  

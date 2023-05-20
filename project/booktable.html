@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="table.css">
+</head>
+<body>
+
+<h3>Book A Table Here,</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="name"> Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Enter Your name....">
+
+    <label for="email">Email</label>
+    <input type="text" id="lname" name="email" placeholder="Enter Your Email....">
+
+    
+    <label for="Time">Select Time</label>
+    <select id="Time" name="Time">
+      <option value="s">Select Your Time--</option>
+      <option value="a">10 A.M. To 11 A.M.</option>
+      <option value="b">11 A.M. To 12 A.M.</option>
+      <option value="c">12 P.M. To 1 P.M.</option>
+      <option value="d">1  P.M. To 2 P.M.</option>
+      <option value="e">2  P.M. To 3 P.M.</option>
+      <option value="f">3  P.M. To 4 P.M.</option>
+    </select>
+  
+    <label for="Table">Select Table</label>
+    <select id="Table" name="Table">
+        <option value="s">Select your Table--</option>
+    <option value="a">1</option>
+    <option value="b">2</option>
+    <option value="s">3</option>
+    <option value="c">4</option>
+    <option value="d">5</option>
+    <option value="e">6</option>
+    </select>
+    <input type="submit" value="Submit" onclick="p()">
+  </form>
+</div>
+<script>
+function p(){
+  alert("submitted sucessfully..........")
+}
+</script>
+</body>
+</html>
+
+
