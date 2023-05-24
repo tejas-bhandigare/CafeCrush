@@ -3,6 +3,13 @@
     background-color:rgb(243, 208, 120);
     margin: auto;
 }
+
+.pos{
+    padding-top: 15%;
+}
+a{
+    text-decoration: none;
+}
 /*responsive*/
 @media(max-width: 767px){
   .footer-col{

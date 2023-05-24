@@ -1,10 +1,13 @@
 body{
   /*  background-image:url("icon.jpg");
       background-repeat: no-repeat;*/
-    background-color:rgb(249, 252, 193)
+    background-color:rgb(249, 252, 193);
+  
+    
 }
-
-
+.bgimg{
+  background-image: pizza2.png;
+}
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
